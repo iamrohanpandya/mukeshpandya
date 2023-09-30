@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="tabs">
+        <button class="tablink" onclick="openTab('miniature')">Miniature Art</button>
+        <button class="tablink" onclick="openTab('paper')">Paper Art</button>
+    </div>
+
+    <div id="miniature" class="tabcontent">
+        <!-- Miniature Art Gallery -->
+    </div>
+
+    <div id="paper" class="tabcontent">
+        <!-- Paper Art Gallery -->
+    </div>
+
+    <div id="image-popup">
+        <span class="close-button" onclick="closePopup()">&times;</span>
+        <img id="popup-image" src="" alt="Popup Image">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
